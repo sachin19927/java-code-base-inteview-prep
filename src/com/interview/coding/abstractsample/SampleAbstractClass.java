@@ -3,9 +3,17 @@ package com.interview.coding.abstractsample;
 public class SampleAbstractClass {
 
 	public static void main(String[] args) {
-		//Bike bike = new Bike();
+		Bike bike = new Bike() {
+
+			@Override
+			void engine() {
+				// TODO Auto-generated method stub
+				
+			}
+			
+		};
 		
-		Bike bike = new Pulsar();
+		Bike bike1 = new Pulsar();
 		bike.run();
 		bike.engine();
 		
