@@ -1,4 +1,4 @@
-package com.interview.coding.colloection.list;
+package com.interview.coding.colloection;
 
 import java.util.Arrays;
 import java.util.HashSet;
