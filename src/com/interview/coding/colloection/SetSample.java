@@ -2,6 +2,7 @@ package com.interview.coding.colloection;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
@@ -32,6 +33,12 @@ public class SetSample {
 		Set<String> linkSetNew= new LinkedHashSet<>();
 		linkSetNew.addAll(list);
 		System.out.println(linkSetNew);
+		
+		Iterator<String> itr= linkSet.iterator();
+		while(itr.hasNext())
+		{
+			System.err.println(itr.next());
+		}
 		
 		
 		

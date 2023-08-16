@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
+import com.interview.coding.constructor.Java8.streams.Employee;
+
 public class HashMapSamplewithEmployee {
 
 	
@@ -28,6 +30,8 @@ public class HashMapSamplewithEmployee {
 		stringMap.put("bins", "Emp Onboarded");
 		stringMap.put("bins", "Emp Left Org");
 		System.err.println(stringMap);
+		
+		System.err.println(stringMap.get("bins"));
 	}
 }
 
