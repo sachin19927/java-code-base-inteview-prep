@@ -1,4 +1,4 @@
-package com.interview.coding.desginpattern;
+package com.interview.coding.desginpattern.singleton;
 
 public class CustomSingleton {
 
