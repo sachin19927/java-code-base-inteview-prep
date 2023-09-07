@@ -13,6 +13,8 @@ public class ThreadSample1 {
 		String threadName=t2.getName();
 		System.out.println(threadName);
 		
+		
+		
 	}
 	
 }
